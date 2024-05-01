@@ -1,0 +1,9 @@
+services:
+  sql-injection-db:
+    image: docker-remote.tools.msi.audi.com/postgres:15.4-alpine
+    environment:
+      - POSTGRES_DB=user
+      - POSTGRES_USER=dbadmin
+      - POSTGRES_PASSWORD=dbpassword
+    ports:
+      - "5432:5432"

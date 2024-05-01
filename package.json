@@ -1,0 +1,16 @@
+{
+  "name": "sql-injection-showcase",
+  "version": "1.0.0",
+  "description": "This application is designed to demonstrate the dangers of SQL injection and how it can be prevented.",
+  "main": "sql-injection-app.js",
+  "scripts": {
+    "start": "node sql-injection-app.js"
+  },
+  "keywords": [],
+  "author": "Huhninho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
